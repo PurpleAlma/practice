@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(43, 41, 39);
+    color:black;
+    font-family: fantasy;
+    margin: auto;
+    width: fit-content;
+}
+ul,li{
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: fit-content;
+    margin: auto;
+}
+/*colors for links LVHA (link visited hover active) */
+a:link {
+    color: wheat;
+}
+a:visited {
+  color: #ff00ff;
+}
+a:hover {
+  color: #00ccff;
+}
+a:active {
+  color: #ff0000;
+}
+.children-css p:nth-child(2){
+    color:red;
+}
+.children-css p:last-child{
+    color:red;
+}
+li:nth-child(2n){
+    color:red
+}
+li:nth-child(2n+1){
+    color:greenyellow;
+}
+
+/*the movie app*/
+.movie{
+    box-sizing: border-box;
+    padding: 20px 20px 20px 190px;
+    color:white;
+    background: url("http://i.imgur.com/lcm5byq.png") 20px 20px/ 150px 218px no-repeat, 
+                url("http://i.imgur.com/2tiJEnP.png") 2% 33%/cover
+}
+.movie button{
+    display: block;
+    background-color:red;
+    border:0;
+    color:white;
+    padding: 13px;
+    margin-top: 35px;
+    font-size:20px;
+}
+
+.one, 
+.two,
+.three,
+.four,
+.five,
+.six,
+#todo,
+#links,
+.children-css
+{
+    background: linear-gradient(rgba(92, 176, 224, 0.8), rgba(232, 245, 118, 0.575)),
+    url(back.jpg) 0% 33%/cover no-repeat;
+    margin:0;
+}
+
