@@ -77,3 +77,65 @@ li:nth-child(2n+1){
     margin:0;
 }
 
+/*THE PHONE*/
+.samsung-body{
+    width: 350px;
+    height: 700px;
+    position: relative;
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 0 0 yellow inset,
+                1px 1px 1px 0 rgb(201, 201, 201);
+}
+.samsung-screen{
+    background-color:rgba(50, 50, 173, 0.623);
+    height: 80%;
+    width: 90%;
+}
+
+.samsung-screen::after{
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(40, 40, 41);
+    border-radius: 50%;
+    box-shadow: 1px 1px 0 0 rgb(0, 0, 0) inset,
+    1px 1px 1px 0 rgb(201, 201, 201);
+
+}
+.samsung-screen::before{
+    content: '';
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    top: 20px;
+    left: 37%;
+    background-color: rgb(40, 40, 41);
+    border-radius: 15px;
+    box-shadow: 1px 1px 0 0 rgb(240, 227, 227) inset,
+    1px 1px 1px 0 rgb(29, 19, 19);
+}
+.samsung-body::after{
+    position: absolute;
+    content: 'SAMSUNG';
+    top: 35px;
+    color:white;
+    left: 42%;
+}
+.samsung-body::before{
+    position: absolute;
+    content: '';
+    top: 75px;
+    right: -4px;
+    background-color:black;
+    width: 5px; 
+    height: 55px;
+    box-shadow: 1px 1px 0 0 rgb(240, 227, 227) inset,
+    1px 1px 1px 0 rgb(240, 227, 227);
+}
